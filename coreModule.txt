@@ -1,0 +1,16 @@
+http - > create HTTP to serve user a web page 
+
+html css 
+react 
+
+
+server -> HTTP - > hyper text transfer protocol
+
+js import export -> 2015 -> es6 
+
+node js -> 2009 -> common js ->  require module -> export import
+
+
+
+
+URL Module;
