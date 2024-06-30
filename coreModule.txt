@@ -14,3 +14,8 @@ node js -> 2009 -> common js ->  require module -> export import
 
 
 URL Module;
+FS -> file system  Module:
+
+OS module:
+
+Error module: - 
