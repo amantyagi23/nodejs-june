@@ -13,9 +13,37 @@ node js -> 2009 -> common js ->  require module -> export import
 
 
 
-URL Module;
 FS -> file system  Module:
+
+file related work
+
+file create , read ,update, delete ,rename
+
+
+create -> appendFile , writeFile
+
+update -> appendFile -> do not update exist data
+            writeFile-> over write file
+
+
+delete -> unlink
+
+rename - > rename('old file name','new file name')
+
+read -> readfFile('filename',decoding,callbackfn)
+
+
+__dirname -> current dir / folder name
+
+__filename -> current open or running file name
+
+
+URL module :- 
+
 
 OS module:
 
+
+querystring
+path
 Error module: - 
