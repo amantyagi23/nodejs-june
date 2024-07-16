@@ -1,0 +1,149 @@
+Node js
+
+runtime environment to js
+basic async js 
+
+single thread architexture 
+
+core module 
+
+
+software
+
+modules
+
+node js -> type of module
+
+1. core module
+provided b node js
+  1.http
+  2.url
+  3.os
+  4.fs
+  5.path
+  6.error
+
+
+
+2. external module
+provided by external lib -> npm -> node package manager
+depend requirement 
+ex-> uuid
+ex-> express 
+ex-> mongoose
+ex-> calculate
+
+insert from external lib. system 
+orignal code -> lib. system 
+code copy -> changable
+used lib -> npm -> node package manager
+            yarn -> multi purpose(react,react-native,flutter)
+
+
+
+
+3. custom module
+self made module like shared function
+available for only us
+ex-> date change (india-> india , usa -> usa)
+
+
+frontend -> database
+client <-> data 
+
+What is server ?
+
+problem ->
+1. database-> no security (data)
+it just a store memory (rom,pendrive)
+anyone read anything(no security)
+
+2. client dont have any higher machine that can handle the load of database
+hardware + software(database, sql ,mongodb ,)
+(client)
+
+3. host form (html css js-> browser -> request -> response )
+
+solution -> code that is between client and database
+serve -> according sto request -> response 
+
+frontend <--> backend(server, waiter) <--> database
+(request,response)
+
+data server 
+host frontend
+based request and response
+security on data(accessiblity)
+
+layers->
+[frontend[backend[database]]]
+guest, 
+login-> identity share (access modifer)
+
+
+
+architexture 
+it just a combination of hardware and software
+to provided some data or produce some data
+
+system design(PG) -> 
+hotstar-> 24x7 -> code run -> user -> 10b(concurrent) ->cpu i5 X1
+host 
+
+type of architexture
+
+tier 1 architexture
+starting approch 
+(frontend + backend + database) - > single machine single ram single cpu 
+same network 
+-> LAN WAN MAN
+
+tier 2 architexture 
+
+(frontend) machine + (backend + database) machine
+client host(html css js access) +  server (request response)
+
+tier 3 architexture
+monolethic 
+aws
+amazon
+fb
+
+(frontend) machine + (backend) machine + (database)machine security
+
+tier 4 architexture
+microservice  -> divide backend -> according service (user,blogs)
+
+netflix
+nvdia
+
+hardware  + software => combination -> resource provide
+
+internet -> service -> information -> database(multiple) ->
+
+client -> serve -> information  
+
+server 
+hardware 
+ram cpu rom
+
+consumer -> producer 
+
+data <- producer 
+data -> consumer
+
+
+
+
+
+
+
+
+server(request + response + database,response) + cli(command line interface)
+
+
+projects starting -> 
+
+npm init , npm init -y  
+
+
