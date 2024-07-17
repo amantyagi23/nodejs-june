@@ -143,7 +143,44 @@ server(request + response + database,response) + cli(command line interface)
 
 
 projects starting -> 
+npm init , npm init -y
 
-npm init , npm init -y  
+npm init command line tool(cli)
+termnial - > cli 
+
+gui-> graphical user interface 
+button , icon -> 
+
+cli -> command line interface
+command <query> enter press 
+
+steps to create a cli in node js
+
+1. create a folder to start project 
+npm init 
+
+2. create a index.js
+at to ' #!/usr/bin/env node'
+
+3. add dependicence to package.json
+"bin":{
+  "cli-name":"path of starting file"
+}
+
+4. add to cli to system
+open current folder in termainal
+
+npm i -g ./
 
 
+5. just call your cli 
+
+
+
+terminal -> command 
+
+
+node js 
+common js -  require / module.export
+
+es6 - 2015 import / export 

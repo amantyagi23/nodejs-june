@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "this is a gpt cli\\",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gpt": "./index.js"
   },
   "keywords": [
     "gpt",
     "cli"
   ],
   "author": "Aman tyagi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  }
 }
