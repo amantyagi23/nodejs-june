@@ -1,0 +1,57 @@
+frontend -> desegin (data show) -> request -> end point ,api , restfull api 
+
+request -> like address -> work method 
+response <- same address <- work complete
+
+
+api
+hit -> address(check rules permission) -> function -> execute -> return response -> headers , url ,authorization  
+flipkart -> order(payment)->address - > box -> address
+
+rest api vs restfull api
+
+rest api
+get post 
+get -> read,delete
+end point name different 
+
+
+
+
+restfull api
+srp 
+
+same name with different method 
+get,post,delete,put,patch 
+
+
+
+node js -> 
+modules
+http,
+url, 
+fs,
+os,
+path,
+error
+
+can create a server but cannot create api
+
+-> express -> request , response -> server node http 
+method api -> work  
+
+
+
+ejs, pug -> html -> node 
+php
+ifelse loop
+include component
+particle 
+
+
+
+
+ssr -> server request -> page demeend -> get request -> response -> page html
+
+csr-> restfull api
+api -> data json 
