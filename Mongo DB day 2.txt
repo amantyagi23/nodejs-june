@@ -1,0 +1,227 @@
+Mongo DB
+
+version -> 7.0.12 lts
+
+6.2
+6.0
+5
+4.5
+4
+3
+2
+1
+
+Day -1 ;
+
+
+Database -> collection -> document
+
+nosql-> json -> bson (binary script object notation)
+
+NoSQL -> data to store in server (use the form known as bson(0-1))
+
+ex-> aman -> 010101
+
+
+work language -> json -> mongodb -> js
+engine -> v8 
+
+
+what is database?
+
+collection of data of related things or object -> user -> customer -> product
+
+collection of collections is known as databases
+
+What is collection ?
+
+ex-> user -> related -> in one collection
+
+sql -> table(structure ) -> collection(no structure)
+table-> rows and cols - > document
+
+document is known as information about any object or thing
+
+ex- user : {
+"name" : "Aman",
+"email" : "amantyagi@gmail.com"
+}
+
+
+
+show read -> object
+
+structure 
+database[collection 
+	{user
+	[document 
+	{id, name ,branch email , password}]
+	, product
+	,order}]
+
+
+
+CRUD OF DATABASE ->
+
+CREATE ->
+ command ->
+ 	use dbname;
+new databases
+
+READ ->
+ command -> 
+	show dbs;
+	or show databases;
+return -> list of database
+
+Update -> rename -> createdatabase 
+copy
+
+DELETE ->
+	ATLAS -> WEBSITE 
+	command
+	db.dropDatabase()
+
+{current -> db -> this }
+
+
+CRUD OF COLLECTION ->
+
+CREATE ->
+	COMMAND ->
+		db.createCollection('name of collection')
+
+READ ->
+command ->
+	show tables;
+	or show collections;
+	
+return type -> list of collections (tables)
+
+UPDATE -> 	rename->
+command -> db.orginalTable.renameCollection('new name')
+
+DELETE ->
+command -> db.collectionName.drop();
+
+
+
+CURD OF DOCUMENT ->
+datatype->
+1.string
+2.number -> a. integer -> 123
+	    b. double -> 12.3
+
+3.boolean -> true / false
+4.arrays -> collection of things syntax []
+5.object -> {key: values}
+6.null 
+7.Date -> unix -> iso string (date+time)
+8.min /max keys
+9.symbol -> $#
+
+
+syntax -> document -> {
+key : value,
+key : value
+}
+
+no -sql->
+ex ->
+instagram->
+
+database-> sql user (email,phone,name,follower, password,address,bio) 
+
+sql - null  required -> 
+no-sql -> document 
+{
+id -> uniqueId
+name-> 
+phone -> 
+
+}
+	
+{
+id-> 
+name ->
+email -> 
+}
+
+
+crud -> 
+2 -> single , many
+
+CREATE ->
+command -> insert
+
+type:-
+1. insertOne->
+object create -> key value 
+save
+
+example :-
+let obj = {name:"rohit",email:"rohit@gmail.com",password:"55444332211"}
+db.collectionName.insertOne()
+
+2. insertMany
+
+const arrObj = [
+{},{},{}
+]
+db.collectionName.insertMany()
+
+READ ->
+
+db.collection.find({query},{projection},{});
+
+UPDATE ->
+
+db.collectionName.updateOne({query},{$set:{name:"value"}})
+
+db.collectionName.updateMany({query},{$set:{name:"value"}})
+
+DELETE -> 
+
+db.collectionName.deleteOne({query})
+
+
+db.collectionName.deleteMany({query})
+
+
+Read commands ->
+
+to retrive the number of document in a collection
+document count -> .count()
+
+limit -> to see min number of document at a time
+
+command -> db.collectionName.find().limit(number of document);
+
+skip-> to skip the number of document from 1 position
+
+
+sort-> to sort document in an order (asc || desc)
+ex:- db.collName.find().sort({key:1})
+1 for asc
+-1 for desc
+
+
+
+find({query},{projection},{option})
+
+option -> where 
+
+$Excute->
+
+
+$eq
+
+
+$gt
+
+Search -> 
+
+
+
+
+
